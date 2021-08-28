@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { getJokesData } from '../../api/index'
-import { imgGenerate } from '../../imgGenerate/index'
+import { getImage } from '../../utils/index'
 import Button from '../buttons/Button'
 import Image from '../images/Image'
 import Joke from '../joke/Joke'
@@ -12,7 +12,7 @@ function Home() {
     const generateJoke = () => {
         getJokesData().then(data => {
             setJoke(data.value.joke)
-            const newImage = imgGenerate()
+            const newImage = getImage()
             setImg(newImage)
 
         }

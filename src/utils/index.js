@@ -1,5 +1,5 @@
 
-export function imgGenerate() {
+export function getImage() {
     var arr = [
         './img/norris1.webp',
         "./img/norris2.webp",
@@ -9,6 +9,5 @@ export function imgGenerate() {
     ]
 
     var item = arr[Math.floor(Math.random() * arr.length)]
-    //console.log(item)
     return item
 }
