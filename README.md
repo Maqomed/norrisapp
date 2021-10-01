@@ -1,7 +1,7 @@
 # ChuckNorrissApp
 
 # Demo
-[http://ec2-18-196-183-211.eu-central-1.compute.amazonaws.com/](http://ec2-18-196-183-211.eu-central-1.compute.amazonaws.com/)
+[https://norrisappmahammad.netlify.app/](https://norrisappmahammad.netlify.app/)
 
 # Description
 Small app where users can generate new jokes of Chuck Norris by clicking the button. 
